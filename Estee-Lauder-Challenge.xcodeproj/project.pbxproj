@@ -16,6 +16,10 @@
 		04419CDC2887B8A600436AB9 /* Estee_Lauder_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04419CDB2887B8A600436AB9 /* Estee_Lauder_ChallengeTests.swift */; };
 		04419CE62887B8A600436AB9 /* Estee_Lauder_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04419CE52887B8A600436AB9 /* Estee_Lauder_ChallengeUITests.swift */; };
 		04419CE82887B8A600436AB9 /* Estee_Lauder_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04419CE72887B8A600436AB9 /* Estee_Lauder_ChallengeUITestsLaunchTests.swift */; };
+		04EB3355288931E300A759C5 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB3354288931E300A759C5 /* menuViewController.swift */; };
+		04EB33572889320900A759C5 /* discoverPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB33562889320900A759C5 /* discoverPageViewController.swift */; };
+		04EB33592889323000A759C5 /* #advancedNightRepairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB33582889323000A759C5 /* #advancedNightRepairViewController.swift */; };
+		04EB335B2889324E00A759C5 /* exploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB335A2889324E00A759C5 /* exploreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		04419CE12887B8A600436AB9 /* Estee-Lauder-ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Estee-Lauder-ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04419CE52887B8A600436AB9 /* Estee_Lauder_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estee_Lauder_ChallengeUITests.swift; sourceTree = "<group>"; };
 		04419CE72887B8A600436AB9 /* Estee_Lauder_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estee_Lauder_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04EB3354288931E300A759C5 /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		04EB33562889320900A759C5 /* discoverPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverPageViewController.swift; sourceTree = "<group>"; };
+		04EB33582889323000A759C5 /* #advancedNightRepairViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "#advancedNightRepairViewController.swift"; sourceTree = "<group>"; };
+		04EB335A2889324E00A759C5 /* exploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exploreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				04419CC62887B8A600436AB9 /* SceneDelegate.swift */,
 				04419CC82887B8A600436AB9 /* ViewController.swift */,
 				04419CCA2887B8A600436AB9 /* Main.storyboard */,
+				04EB335A2889324E00A759C5 /* exploreViewController.swift */,
+				04EB33582889323000A759C5 /* #advancedNightRepairViewController.swift */,
+				04EB33562889320900A759C5 /* discoverPageViewController.swift */,
+				04EB3354288931E300A759C5 /* menuViewController.swift */,
 				04419CCD2887B8A600436AB9 /* Assets.xcassets */,
 				04419CCF2887B8A600436AB9 /* LaunchScreen.storyboard */,
 				04419CD22887B8A600436AB9 /* Info.plist */,
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EB33592889323000A759C5 /* #advancedNightRepairViewController.swift in Sources */,
 				04419CC92887B8A600436AB9 /* ViewController.swift in Sources */,
 				04419CC52887B8A600436AB9 /* AppDelegate.swift in Sources */,
+				04EB335B2889324E00A759C5 /* exploreViewController.swift in Sources */,
 				04419CC72887B8A600436AB9 /* SceneDelegate.swift in Sources */,
+				04EB3355288931E300A759C5 /* menuViewController.swift in Sources */,
+				04EB33572889320900A759C5 /* discoverPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
